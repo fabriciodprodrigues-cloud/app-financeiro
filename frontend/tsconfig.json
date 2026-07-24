@@ -8,16 +8,9 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "strict": false,
+    "moduleResolution": "node",
     "resolveJsonModule": true,
-    "moduleResolution": "bundler",
-    "baseUrl": "./src",
-    "paths": {
-      "@/*": ["./*"],
-      "@components/*": ["./components/*"],
-      "@services/*": ["./services/*"],
-      "@types/*": ["./types/*"]
-    }
+    "types": ["vite/client"]
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
