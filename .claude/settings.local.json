@@ -6,7 +6,10 @@
       "mcp__visualize__read_me",
       "mcp__visualize__show_widget",
       "PowerShell(npm install react-router-dom)",
-      "PowerShell(netstat -ano)"
+      "PowerShell(netstat -ano)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)"
     ]
   }
 }
