@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"C:\\\\Aplicativos\\\\App financeiro\" -Force)",
+      "Bash(Select-Object Name, FullName)",
+      "mcp__visualize__read_me",
+      "mcp__visualize__show_widget",
+      "PowerShell(npm install react-router-dom)",
+      "PowerShell(netstat -ano)"
+    ]
+  }
+}
